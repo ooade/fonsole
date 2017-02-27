@@ -6,20 +6,23 @@ let pkg = require('./package.json');
 export default {
   entry: 'src/index.js',
   useStrict: false,
+  sourceMap: true,
   plugins: [
     babel(babelrc())
   ],
   targets: [
     {
       dest: pkg.main,
-      format: 'umd',
-      moduleName: 'fonsole',
-      sourceMap: true
+      format: 'cjs'
     },
     {
       dest: pkg.module,
-      format: 'cjs',
-      sourceMap: true
+      format: 'es',
+    },
+    {
+      dest: pkg['umd:main'],
+      format: 'umd',
+      moduleName: 'fonsole'
     }
   ]
 };

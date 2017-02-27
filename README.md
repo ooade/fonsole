@@ -6,7 +6,7 @@
 
 # Fonsole
 
-Tiny ~300B browser console formatter.
+Tiny ~250B browser console formatter.
 
 ## Usage
 Fonsole exports a single object, which has a single method `log`. `fonsole.log` replaces your native browser's `console.log` statement with it's own formatted log statement, which takes in the style to be used as its second argument.
