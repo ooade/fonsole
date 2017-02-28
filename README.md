@@ -17,5 +17,12 @@ import fonsole from 'fonsole';
 fonsole.log('Hi There!', 'color: green; font-size: 1.5rem');
 ```
 
+## Demos / Examples 
+
+ - [Basic Example with fonsole](https://jsfiddle.net/ooade/4pa9d34m/) :+1:
+ - [Fonsole with label](https://jsfiddle.net/ooade/xtn8ursb/) :sunglasses:
+ - [Facebook Style Console Log with Fonsole](https://jsfiddle.net/ooade/qfntv5yh/) :heart_eyes:
+
+
 ## License
 MIT
