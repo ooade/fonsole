@@ -1,6 +1,6 @@
 {
   "name": "fonsole",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Format your browser's console - Add some craziness to it 😏",
   "main": "dist/fonsole.js",
   "module": "dist/fonsole.es.js",
